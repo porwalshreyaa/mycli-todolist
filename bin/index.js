@@ -106,7 +106,7 @@ program.version(packageJson.version)
 
 program
 .command("add <todo>")
-.description("adds todo")
+.description("add todo")
 .action((todo)=>{
     addTodo(todo);
 });
@@ -134,7 +134,7 @@ program
 
 program
 .command("delete <todoid>")
-.description("deletes todo by id")
+.description("delete todo by id")
 .action((todoid)=>{
     deleteTodo(todoid);
 });
